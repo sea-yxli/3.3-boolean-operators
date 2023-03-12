@@ -1,3 +1,4 @@
+print("Let's play two questions! Please think of an object, and I will try to guess it.")
 category = int(input("Is it an animal, vegetable, or mineral?")).lower()
 bigger_than_breadbox = int(input("Is it bigger than a breadbox?")).lower()
 if category == "animal":
